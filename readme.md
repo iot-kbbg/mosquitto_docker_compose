@@ -40,7 +40,7 @@ Sudo systemctl enable docker
 
 To start the server, clone this repository to your home folder on the raspberry pi and navigate to the folder where the docker-compose.yml is:
 ~~~
-git clone https://github.com/goossensbas/mosquitto_docker_compose.git
+git clone https://github.com/iot-kbbg/mosquitto_docker_compose.git
 cd mosquitto_docker_compose
 ~~~
 
