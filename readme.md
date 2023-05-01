@@ -6,34 +6,34 @@ The readme explains how to set up a Mosquitto server with Docker-compose on a ra
 
 ### update system
 ~~~
-Sudo apt-get update
-Sudo apt-get upgrade
+sudo apt-get update
+sudo apt-get upgrade
 ~~~
 
 ### install docker
 ~~~
-Sudo curl fsSL https://get.docker.com | sh
+sudo curl fsSL https://get.docker.com | sh
 ~~~
 ### add user to docker group
 ~~~
-Sudo usermod -aG docker ${USER}
+sudo usermod -aG docker ${USER}
 ~~~
 
 ### install dependencies for deocker-compose
 ~~~
-Sudo apt-get install libffi-dev libssl-dev python3-dev python3 python3-pip
+sudo apt-get install libffi-dev libssl-dev python3-dev python3 python3-pip
 ~~~
 
 ## Setup Docker-compose
 
 ### install docker-compose with pip
 ~~~
-Sudo pip3 install docker-compose
+sudo pip3 install docker-compose
 ~~~
 
 ### enable docker as a service
 ~~~
-Sudo systemctl enable docker
+sudo systemctl enable docker
 ~~~
 
 ## start the server
