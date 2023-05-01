@@ -36,6 +36,11 @@ sudo pip3 install docker-compose
 sudo systemctl enable docker
 ~~~
 
+### reboot the raspberry pi
+~~~
+sudo reboot
+~~~
+
 ## start the server
 
 To start the server, clone this repository to your home folder on the raspberry pi and navigate to the folder where the docker-compose.yml is:
